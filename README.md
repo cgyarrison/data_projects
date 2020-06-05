@@ -3,4 +3,4 @@ Data miscellany
 
 Various data distractions
 
-(anscombe.png)
+![](anscombe.png)
