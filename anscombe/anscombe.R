@@ -3,14 +3,12 @@ library(patchwork)
 
 anscombe
 
-?theme_set
-
 theme_update(panel.background = element_rect(fill = "#fffb96"),
-          axis.line = element_line(color = "black"),
-          aspect.ratio = 1/2,
-          axis.text = element_text(family = "mono", size = 10),
-          plot.background = element_rect(linetype = 0),
-          panel.grid = element_blank())
+             axis.line = element_line(color = "black"),
+             aspect.ratio = 1/2,
+             axis.text = element_text(family = "mono", size = 10),
+             plot.background = element_rect(linetype = 0),
+             panel.grid = element_blank())
 
 anscombe %>% ggplot(aes(x = x1, y = y1,
                         color = x1)) +
@@ -100,4 +98,4 @@ p + plot_annotation(title = "Anscombe's Quartet") &
   theme(text = element_text(family = "mono", size = 12),
         plot.background = element_rect(fill = "#05ffa1"))
 
-ggsave("anscombe/anscombe.png", dpi = 600)
+# ggsave("anscombe/anscombe.png", dpi = 600)
