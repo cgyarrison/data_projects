@@ -1,5 +1,5 @@
 # data_projects
-Various data distractions
+
+Various data distractions, such as:
 
 ![](anscombe/anscombe.png)
-
