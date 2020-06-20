@@ -1,4 +1,5 @@
 # data_projects
 Various data distractions
 
-![](anscombe.png)
+![](anscombe/anscombe.png)
+
