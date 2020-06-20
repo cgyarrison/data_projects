@@ -10,22 +10,6 @@ theme_update(panel.background = element_rect(fill = "#fffb96"),
              plot.background = element_rect(linetype = 0),
              panel.grid = element_blank())
 
-anscombe %>% ggplot(aes(x = x1, y = y1,
-                        color = x1)) +
-  geom_abline(slope = 0.5, intercept = 3,
-              color = "orange", linetype = "dashed", size = 1) +
-  geom_point(size = 5, show.legend = FALSE) +
-  coord_cartesian(xlim = c(0, 20), ylim = c(0, 13.5), expand = FALSE) +
-  scale_x_continuous(breaks = c(5, 10, 15, 20),
-                     labels = c("", 10, "", 20)) +
-  scale_y_continuous(breaks = c(5, 10)) +
-  scale_color_gradient(low = "#ff71ce", high = "#01cdfe") +
-  labs(x = NULL, y = NULL) +
-  annotate("text", x = 2.5, y = 11.5,
-           label = "I",
-           size = 8,
-           family = "mono")
-
 p1 <- anscombe %>% ggplot(aes(x = x1, y = y1,
                               color = x1)) +
   geom_abline(slope = 0.5, intercept = 3,
