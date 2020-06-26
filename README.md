@@ -4,6 +4,6 @@ Various data distractions, for instance, Anscombe's Quartet, but make it `A E S 
 
 ![](anscombe/anscombe.png)
 
-Working on a Weezer theme, for those who remember who Weezer is:
+Working on a Weezer theme, for those who remember what Weezer is:
 
 ![](weezer/weezer.png)
