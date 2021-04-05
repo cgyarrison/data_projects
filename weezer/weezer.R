@@ -38,4 +38,4 @@ weezer %>% ggplot(aes(x = member, y = height)) +
         axis.text.x = element_blank(),
         panel.grid.major.x = element_blank())
 
-ggsave("weezer/weezer2.png", dpi = 600)
+# ggsave("weezer/weezer.png", dpi = 600)
