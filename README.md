@@ -6,4 +6,4 @@ Various data distractions, for instance, Anscombe's Quartet, but make it `A E S 
 
 Working on a Weezer theme, for those who remember what Weezer is:
 
-![](weezer/weezer2.png)
+![](weezer/weezer.png)
