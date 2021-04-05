@@ -26,8 +26,8 @@ weezer %>% ggplot(aes(x = member, y = height)) +
                      labels = rev(songs),
                      minor_breaks = NULL) +
   labs(x = NULL, y = NULL) +
-  annotate("text", label = "weezer",
-           x = "d", y = 18,
+  annotate("text", label = "theme_weezer()",
+           x = 3.45, y = 18,
            hjust = 0.69, vjust = 1.2,
            size = 13, family = "WeezerFont") +
   theme(panel.background = element_rect(fill = "#0071a5", color = "black"),
@@ -38,4 +38,4 @@ weezer %>% ggplot(aes(x = member, y = height)) +
         axis.text.x = element_blank(),
         panel.grid.major.x = element_blank())
 
-# ggsave("weezer/weezer.png", dpi = 600)
+ggsave("weezer/weezer2.png", dpi = 600)
